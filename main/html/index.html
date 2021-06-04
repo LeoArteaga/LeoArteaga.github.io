@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Leo</title>
+    <link rel="stylesheet" href="/main/css/style.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="/main/javascript/projects.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/main/images/mifoto2.jpg" alt="Foto de mí">
+            <h1>Leo Arteaga</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <p class="subtitle">Datos personales</p>
+            <p>
+                Tengo 22 años, actualmente curso el cuarto semestre de la Licenciatura en Ciencias Genómicas, 
+                me gusta aprender nuevas cosas todo el tiempo, programar se ha vuelto uno de mis pasatiempos 
+                favoritos, mis videojuegos favoritos son Call of Duty, Portal, Shadow of the Colossus, 
+                Horizon Zero Dawn y los juegos Souls, hablo español, inglés, un poco de italiano y 
+                un poco de esperanto y siempre trato de fijarme nuevas metas y superarme cada vez más.
+            </p>
+            <p class="subtitle">Algunos proyectos escolares</p>
+            <a id="first_btn" class="semesters">Primer semestre</a>
+            <a id="second_btn" class="semesters">Segundo semestre</a>
+            <a id="third_btn" class="semesters">Tercer semestre</a>
+            <a id="fourth_btn" class="semesters">Cuarto semestre</a>
+            <a id="extra_btn" class="semesters">Extra</a>
+            <div id="first" class="project">
+                <p>El proyecto de primer semestre fue desarrollar 7 programas tanto en C como en Perl:</p>
+                <ol>
+                    <li>Programa que cambie un número de binario a decimal y un número de decimal a binario</li>
+                    <li>Programa que tome dos conjuntos y regrese el conjunto universo, la unión, la intersección, las diferencias asimétricas y la diferencia simétrica de los conjuntos</li>
+                    <li>Programa del método burbuja</li>
+                    <li>Programa que tome un número y lo regrese en letra</li>
+                    <li>Programa de búsqueda binaria</li>
+                    <li>Programa de búsqueda binaria recursiva</li>
+                    <li>Programa que obtenga las conexiones entre nodos de una red y regrese el grado del nodo y el coeficiente de clustering del nodo</li>
+                </ol>
+                <iframe width="455" height="350" src="https://www.youtube.com/embed/4fiHxb2361Q?controls=1" allowfullscreen></iframe>
+            </div>
+            <div id="second" class="project">
+                <p>El proyecto de segundo semestre fue hacer 10 programas de métodos numéricos en Python, sólo uno en C:</p>
+                <ol>
+                    <li>Aproximaciones sucesivas</li>
+                    <li>Newton</li>
+                    <li>Regula Falsi</li>
+                    <li>Mínimos cuadrados (este en C)</li>
+                    <li>Lagrange</li>
+                    <li>Gauss-Seidel</li>
+                    <li>Simpson</li>
+                    <li>Romberg</li>
+                    <li>Euler</li>
+                    <li>Runge-Kutta</li>
+                </ol>
+                <iframe width="455" height="350" src="https://www.youtube.com/embed/rhDcr0hSd8E?controls=1" allowfullscreen></iframe>
+            </div>
+            <div id="third" class="project">
+                <p>
+                    El proyecto de tercer semestre fue desarrollar un sitio web para consultar una base de datos de genes y operones usando HTML, CSS, JavaScript, PHP y MySQL.
+                    El sitio tenía que tener un nombre, logotipo y diseño hecho por nosotros y se iba a componer de varias páginas:
+                </p>
+                <ul>
+                    <li>Una página principal donde se mostrara el logotipo, el nombre del sitio y una barra de búsqueda con opciones para buscar genes, operones o ambos</li>
+                    <li>Una página de descargas/registro de usuarios donde se podría descargar los datasets de genes y operones o la base de datos completa y donde se podrían registrar los usuarios en otra base de datos ingresando los siguientes datos: first name, last name, institution, country, email, password. Con validaciones para que no se registrara el mismo usuario dos veces</li>
+                    <li>Una página donde se mostrara información del autor del sitio (en este caso, de mí)</li>             
+                </ul>
+                <p>
+                    Respecto a la búsqueda, se valida que el usuario eligiera al menos una de la dos opciones de búsqueda: genes u operones, al situarse sobre la barra de búsqueda y comenzar a escribir se despliegan sugerencias de autocompletado y al buscar una palabra se manda a una página de resultados donde se muestran los resultados de la búsqueda en una tabla para genes y una tabla para operones. 
+                    Al hacer click izquierdo sobre uno de los genes/operones se abre otra ventana que manda a la página con información sobre ese gen/operón, dentro de esta página también se puede descargar la información del gen/operón.
+                </p>
+                <iframe width="455" height="350" src="https://www.youtube.com/embed/loElQcDrnlg?controls=1" allowfullscreen></iframe>
+            </div>
+            <div id="fourth" class="project">
+                <p>
+                    Este semestre hemos visto cosas más específicas de bioinformática como conexión a, navegación y búsqueda en bases de datos, lectura y quality control de secuencias genómicas y transcriptómicas, visualización, variant calling, entre otras.
+                </p>
+            </div>
+            <div id="extra" class="project">
+                <p>
+                    Por otra parte, he seguido cursos en internet de páginas como Solo Learn, ED Team, Platzi, Codecademy, Datacamp  y YouTube de lenguajes como C, C++, C#, Python, R, HTML, CSS, JavaScript, PHP y de herramientas como AJAX, Angular, React y Node.js.
+                    <br>Aquí abajo pongo un video de un juego que hice supersencillo en primer semestre en C.
+                </p>
+                <iframe width="455" height="350" src="https://www.youtube.com/embed/FLS59yd0cbM?controls=1" allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><img src="/main/images/yahoo.png" alt="Logo de Yahoo"> <a href="mailto:arteagaleo.la17@yahoo.com">arteagaleo.la17@yahoo.com</a></li>
+                <li><img src="/main/images/ig.png" alt="Logo de Instagram"> <a href="https://instagram.com/leo_arteaga98?utm_medium=copy_link" target="_blank">@leo_arteaga98</a></li>
+                <li><img src="/main/images/fb.png" alt="Logo de Facebook"> <a href="https://www.facebook.com/leo.arteaga.737" target="_blank">Leo Arteaga</a></li>
+                <li><img src="/main/images/tw.png" alt="Logo de Twitter"> <a href="https://twitter.com/leo_arteaga?s=09" target="_blank">Leo Arteaga</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
